@@ -1,58 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Para hacer el sitio responsivo -->
-  <title>Buenos días!!</title>
+  <title>Buenos dias!!</title>
+  <link rel='stylesheet' href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/1524180/codepen-template-1.0.css'>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="script.js">
 
-  <!-- Estilos básicos -->
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh; /* Ocupa toda la pantalla */
-      background: linear-gradient(135deg, #ff9a9e, #fad0c4); /* Fondo bonito */
-      font-family: Arial, sans-serif;
-      overflow: hidden; /* Oculta el desplazamiento */
-    }
-
-    canvas {
-      display: block; /* Elimina espacios extra alrededor del canvas */
-      max-width: 100%;
-      max-height: 100%;
-      width: 95vw; /* Ocupa el 95% del ancho de la pantalla */
-      height: 85vh; /* Ocupa el 85% de la altura de la pantalla */
-    }
-
-    @media (max-width: 600px) {
-      canvas {
-        width: 100vw; /* Ajuste completo en pantallas pequeñas */
-        height: 90vh;
-      }
-    }
-  </style>
 </head>
 <body>
-  <div>
-    <canvas id="testCanvas"></canvas> <!-- Canvas dinámico -->
-  </div>
+<div>
+	<canvas id="testCanvas" width="550" height="500"></canvas>
+</div>
+<script src='https://code.createjs.com/1.0.0/easeljs.min.js'></script>
+<script  src="./script.js"></script>
 
-  <!-- Librerías y scripts -->
-  <script src="https://code.createjs.com/1.0.0/easeljs.min.js"></script>
-  <script src="./script.js"></script>
+<!-- 
 
-  <!-- Créditos (puedes eliminar esto si no es necesario) -->
-  <!-- 
-  Buy me a coffee:
-      * https://buymeacoffee.com/alexx.dev
-      * https://www.tiktok.com/@alexx.dev?is_from_webapp=1&sender_device=pc  
-  -->
+Buy me a coffee:
+
+    * https://buymeacoffee.com/alexx.dev
+    * https://www.tiktok.com/@alexx.dev?is_from_webapp=1&sender_device=pc  
+
+-->
+
 </body>
 </html>
